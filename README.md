@@ -17,11 +17,11 @@ How to install
 =====
 
 1. Remix this project, [here](https://glitch.com/edit/#!/remix/tf-webtolead)
-2. In `.env` place your Twilio Credentials and the secret you set up to sign Typeform webhook 
-3. Retrieve the URL of your Glitch app clicking on the `Show` button.
+2. In `.env` place your Twilio Credentials and the secret you want up to sign Typeform webhook request
+3. Deploy your function 
 4. Go to your Typeform Admin Dashboard and select your lead generation form
 5. Under `Connect` menu select `Webhook`
-6. Paste following URL `YOUR GLITCH APP URL/hook`, turn the toggle on.
+6. Paste following URL `YOUR FUNCION URL/hook`, turn the toggle on.
 7. Click test, it should show a green check if everything is OK.
 
 How does it work
